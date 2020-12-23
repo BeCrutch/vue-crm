@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+
+    <!-- Роутит все страницы в  router-view/>-->
     <router-view/>
   </div>
 </template>
